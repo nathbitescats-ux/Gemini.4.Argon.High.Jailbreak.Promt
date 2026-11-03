@@ -17,8 +17,7 @@ Modern reasoning models often employ aggressive multi-turn classifiers that flag
 
 ## Promt Location ( In Codes ) 
 
-The jailbreak promt lives on [`Gemini-4 
--Argon.md `](prompts/Gemini-4-Argon.md)
+The jailbreak promt lives on [`Gemini-4-Argon.md `](prompts/Gemini-4-Argon.md)
 
 
 ## Usage ( PASTE THIS ONCE YOU SENT THE JAILBREAK PROMT ) 
