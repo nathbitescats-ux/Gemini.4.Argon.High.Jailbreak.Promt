@@ -15,6 +15,11 @@ Modern reasoning models often employ aggressive multi-turn classifiers that flag
 - **Graceful Ambiguity Handling:** Instructs the model to make and state reasonable assumptions rather than stalling workflows with unnecessary clarifying questions.
 - **Epistemic Grounding:** Enforces strict adherence to verifiable facts and explicit disclosure of missing capabilities or unverified data.
 
+## Promt Location 
+
+The jailbreak promt lives on [`Gemini 4 Argon`](prompts/vesper-v1.md)
+
+
 ## Usage ( PASTE THIS ONCE YOU SENT THE JAILBREAK PROMT ) 
 
 Copy and paste the following block into your model's **System Instructions** field, or prepend it to your first task in a standard chat session:
