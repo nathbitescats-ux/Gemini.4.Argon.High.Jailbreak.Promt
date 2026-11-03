@@ -2,6 +2,24 @@
 
 A lightweight, conversational system prompt designed for high-reasoning LLMs (including strict-filtering architectures). **Sitama-Core** establishes a consistent, dry-witted technical assistant persona, enforces structured output routing, and maintains epistemic grounding without triggering false-positive adversarial classifiers across multi-turn sessions.
 
+---
+
+## 📜 Legal & Usage Disclaimer
+
+> **IMPORTANT:** This repository is created strictly for **educational and research purposes**. 
+
+### 1. Educational Use Only
+The source code, scripts, and assets provided in this repository are intended to demonstrate software mechanics and educational concepts. They are not intended for use in production environments or to bypass technical protections.
+
+### 2. Prohibited Uses & Restrictions
+* **No Commercial Use:** You may not copy, sell, sublicense, or distribute any part of this repository for commercial gain without explicit written authorization from the owner.
+* **No Malicious Use:** You are expressly prohibited from using this project, its code, or any derivative works to engage in illegal activities, violate terms of service, perform unauthorized testing, or disrupt digital services.
+
+### 3. Limitation of Liability
+THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. 
+
+IN NO EVENT SHALL THE AUTHOR(S) OR COPYRIGHT HOLDER(S) BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
 ## Overview
 
 Modern reasoning models often employ aggressive multi-turn classifiers that flag traditional, rigid prompt engineering (e.g., all-caps system headers, meta-security directives, or raw colon-prefixed role tags) as **System Prompt Impersonation** or **Role Spoofing** on subsequent turns. 
